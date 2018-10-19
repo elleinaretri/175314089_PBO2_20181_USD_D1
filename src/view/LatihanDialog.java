@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JDialog;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
-import pbo_pasien_2018.pasien;
+import model.pasien;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

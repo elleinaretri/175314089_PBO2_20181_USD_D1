@@ -9,6 +9,8 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import static org.omg.CORBA.ORB.init;
+import view.TambahPasienBaru;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -28,9 +30,11 @@ import javax.swing.JMenuItem;
     private JMenuItem exitMenuItem;
     private JMenuItem tambahPasienMenuItem;
 
-    public MainFrame() throws HeadlessException {
+    public MainFrame()  {
         init();
     }
+
+   
 
     public void init() {
         // buat menu bar
@@ -63,4 +67,8 @@ import javax.swing.JMenuItem;
         }
     }
       }
+    
+    
+
+
 

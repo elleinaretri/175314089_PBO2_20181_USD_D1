@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pbo_pasien_2018;
+package model;
+
+import java.util.ArrayList;
 
 /**
  *
@@ -12,10 +14,31 @@ package pbo_pasien_2018;
 
     public class klinik {
 
+    /**
+     *
+     */
+        
+//    public static ArrayList < klinik> daftarKlinik = new ArrayList< klinik >{
+//        public static void tambahklinik(klinik klinik){
+//            daftarKlinik.add(klinik);
+//        }
+//        
+//    public static klinik cariKlinik (String namaKlinik){
+//        for (int i = 0; i < daftarKlinik.size(); i++) {
+//            if (daftarKlinik.get(i).equalsIgnoreCase(namaKlinik))
+//            {
+//                
+//            }
+//        }
+//        return null;
+//            
+//        
+//    }
     private String ID_Klinik; //mendeklarasikan ID_Klinik menggunakan tipe data String dan menggunakan private karena
     //tidak semua kelas bisa mengaksesnya
     private String namaPasien; //mendeklarasikan namaPasien menggunakan tipe data String dan mmenggunakan private karena 
     //tidak semua kelas bisa mengaksesnya
+    //Object getNamaKlinik;
 
     public klinik(String ID_Klinik, String namaPasien) {  //menuliskan methode klinik yang diberi parameter String ID_Klinik dan 
         //String namaPasien
@@ -41,6 +64,9 @@ package pbo_pasien_2018;
     public void setNamaPasien(String namaPasien) { //mengisi data dari variabel nama pasien melalui methode setter nama pasien
         this.namaPasien = namaPasien; //mengakses variabel ID_Klinik
     }
+
+   
+   
 }
 
 
